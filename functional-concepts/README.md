@@ -1,0 +1,31 @@
+- `allMatch()`: Retorna si todos los elementos del flujo cumplen con la condición proporcionada.
+- `anyMatch()`: Retorna si alguno de los elementos del flujo cumple con una condición proporcionada.
+- `collect()`: Realiza una operación de reducción mutable en los elementos de este flujo utilizando un `Collector`.
+- `concat()`: Crea un flujo concatenado a partir de dos flujos.
+- `count()`: Retorna el conteo de elementos en el flujo.
+- `distinct()`: Retorna un flujo que consiste en los elementos distintos (según el método `equals(Object)`).
+- `dropWhile()`: Descarta los elementos hasta que se cumple una condición y entonces comienza a operar normalmente.
+- `filter()`: Retorna un flujo que consiste en los elementos que cumplen la condición dada.
+- `findAny()`: Retorna un `Optional` describiendo algún elemento del flujo, o un vacío si el flujo está vacío.
+- `findFirst()`: Retorna un `Optional` describiendo el primer elemento del flujo.
+- `flatMap()`: Reemplaza cada elemento del flujo por contenido de un flujo mapeado.
+- `forEach()`: Ejecuta una acción para cada elemento de este flujo.
+- `forEachOrdered()`: Ejecuta una acción para cada elemento de este flujo, garantizando el orden del flujo de entrada.
+- `generate()`: Crea un flujo infinito por medio de un `Supplier`.
+- `iterate()`: Produce un flujo secuencial infinito.
+- `limit()`: Trunca el flujo para que no tenga más de un determinado número de elementos.
+- `map()`: Retorna un flujo consistente en los resultados de aplicar la función dada a los elementos de este flujo.
+- `max()`: Retorna el elemento máximo de este flujo.
+- `min()`: Retorna el elemento mínimo de este flujo.
+- `noneMatch()`: Retorna si ningún elemento del flujo cumple con la condición.
+- `of()`: Crea un flujo de uno o varios elementos.
+- `onClose()`: Agrega un cierre de manejo para el flujo.
+- `parallel()`: Retorna un flujo paralelo equivalente.
+- `peek()`: Retorna un flujo que consiste en los elementos de este flujo, además realiza la acción proporcionada en cada elemento a medida que se consumen.
+- `reduce()`: Reduce los elementos de este flujo utilizando una `BinaryOperator` para combinar dos elementos y producir un nuevo valor.
+- `sequential()`: Retorna un flujo secuencial equivalente.
+- `skip()`: Descarta los primeros elementos del flujo.
+- `sorted()`: Retorna un flujo consistente en los elementos de este flujo, ordenados.
+- `takeWhile()`: Retorna un nuevo flujo que contiene elementos hasta que se cumple una condición.
+- `toArray()`: Devuelve un array con los elementos de este flujo.
+- `unordered()`: Retorna un flujo desordenado equivalente al flujo de entrada.
